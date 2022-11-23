@@ -1,0 +1,25 @@
+.h6-edit {
+  left: 40px;
+  color: #fff700;
+  background: transparent;
+  font-size: large;
+}
+.cont-for-sugg {
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(241, 221, 212);
+}
+.measure {
+  height: 200px;
+  width: 200px;
+}
+.body-img {
+  background-image: url("https://i.pinimg.com/originals/ff/83/b9/ff83b9c6abe5366bf7d8cc309b53e88d.gif");
+}
+.innerBox {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}

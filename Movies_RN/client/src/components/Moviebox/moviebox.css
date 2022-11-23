@@ -1,0 +1,49 @@
+.watchListButton {
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 10px 24px;
+  /* to place it in the right position */
+  transition-duration: 0.4s;
+}
+
+/* for the coloring effect */
+.watchListButton:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.remv-button {
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 10px 24px;
+  /* to place it in the right position */
+  transition-duration: 0.4s;
+}
+.remv-button:hover {
+  background-color: red; /* red */
+  color: white;
+}
+
+.message-added {
+  margin-top: 10px;
+}
+
+/* let's see */
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: black;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}

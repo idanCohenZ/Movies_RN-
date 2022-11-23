@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  margin-left: 0.5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.message {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px rgb(109, 177, 177), 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff,
+    0 0 150px rgb(151, 210, 210);
+}
+
+.mygif img {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.mygif h3 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px rgb(109, 177, 177), 0 0 80px #0ff, 0 0 90px #0ff, 0 0 100px #0ff,
+    0 0 150px rgb(151, 210, 210);
+}
+
+.containGif {
+  height: 300px;
+  width: 100%;
+  margin: 50px;
+}
